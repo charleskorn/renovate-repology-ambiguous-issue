@@ -3,7 +3,7 @@
     {
       "fileMatch": ["(^|/)dependencies.txt$"],
       "matchStrings": [
-        "(?<depName>[a-zA-Z0-9-]+)=(?<currentValue>[a-zA-Z0-9-._:+~]+)"
+        "(?<depName>[a-zA-Z0-9-]+)==(?<currentValue>[a-zA-Z0-9-._:+~]+)"
       ],
       "versioningTemplate": "loose",
       "datasourceTemplate": "repology",
